@@ -65,10 +65,9 @@ const galleryItemTemplates = galleryContent.map(
           <p class="card-text">${item.title}</p>
           <div class="d-flex justify-content-between align-items-center">
             <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-primary">View</button>
+              <button type="button" class="btn btn-sm btn-primary">Просмотр</button>
               
             </div>
-            <small class="text-muted">9 mins</small>
           </div>
         </div>
       </div>

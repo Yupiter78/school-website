@@ -41,59 +41,67 @@
 
 </head>
 <body>
+<div class="custom_main">
+    <header class="custom_header">
+        <div class="logo">
+            <img src="images/image1.png" class="image_logo">
+            <div class="wrapper">
+                <span class="title">ГБОУ СОШ №655 Приморского района СПб</span>
+                <span class="subtitle">Электронная экологическая лаборатория: от чистого школьного двора к чистому городу</span>
+            </div>
+        </div>
+        <div class="custom_header_input d-flex align-items-start">
 
-<header>
-    <div class="navbar navbar-dark bg-dark shadow-sm">
+            <label>
+                <input class="custom_input m-1" placeholder="Введите"/>
+            </label>
+            <button class="custom_button btn btn-sm m-1 text-light">Найти</button>
+            <img class="m-1" src="images/qr-code.gif" width="70" height="70" border="0" title="QR код" alt="">
+        </div>
+    </header>
+    <div class="custom_navbar">
+        <ul class="custom_nav custom_nav-ul">
+            <li class="nav-li start">
+                <a title="О нас" href="/">О нас</a>
+            </li>
+            <li class="nav-li">
+                <a title="Методическая копилка" href="/">Методическая копилка</a>
+            </li>
+            <li class="nav-li">
+                <a title="Работа лаборатории" href="/">Работа лаборатории</a>
+            </li>
+            <li class="nav-li">
+                <a title="Иследовательская деятельность учащихся" href="/">Иследовательская деятельность учащихся</a>
+            </li>
+            <li class="nav-li end">
+                <a title="Новости" href="/">Новости</a>
+            </li>
+        </ul>
+    </div>
+
+    <main>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="custom_box">
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-muted py-5">
         <div class="container">
-            <div href="#" class="navbar-brand d-flex align-items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
-                     stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
-                     viewBox="0 0 24 24">
-                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
-                    <circle cx="12" cy="13" r="4"/>
-                </svg>
-                <strong>Галерея</strong>
-            </div>
+            <p class="float-end mb-1">
+                <a href="#">Наверх</a>
+            </p>
+            <p class="mb-1"> Album example Album example Album example Album example Album example Album example</p>
+            <p class="mb-0"><a href="index.html">На домашнюю страницу</a></p>
         </div>
-    </div>
-</header>
-
-<main>
-
-    <section class="py-5 text-center container">
-        <div class="row py-lg-5">
-            <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="fw-light">Галерея</h1>
-                <p class="lead text-muted">Здесь отображаются фотодоказательства наших достижений.</p>
-                <p>
-                    <a href="#" class="btn btn-primary my-2">Первая коллекция</a>
-                    <a href="#" class="btn btn-primary my-2">Вторая коллекция</a>
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <div class="album py-5 bg-light">
-        <div class="container">
-
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="custom_box">
-
-            </div>
-        </div>
-    </div>
-
-</main>
-
-<footer class="text-muted py-5">
-    <div class="container">
-        <p class="float-end mb-1">
-            <a href="#">Back to top</a>
-        </p>
-        <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a
-                href="/docs/5.1/getting-started/introduction/">getting started guide</a>.</p>
-    </div>
-</footer>
+    </footer>
+</div>
 
 
 <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
